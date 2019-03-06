@@ -1,0 +1,26 @@
+// Tập tin chứa CSS cho thành phần toàn cục trên website như html, body, a.
+*{
+	margin: 0;
+	padding: 0;
+	// box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+	color: #000
+}
+ ul li{
+	display: inline-block;
+}
+img{
+	max-width: 100%;
+	height: auto
+}
+.text-right{
+	text-align: right;
+}
+.text-white{
+	color: #fff
+}
+.bg-dark{
+	background-color: #222;
+}

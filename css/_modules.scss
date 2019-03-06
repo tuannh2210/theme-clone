@@ -1,0 +1,61 @@
+//  Tập tin này sẽ viết CSS cho các đối tượng trong website như nút bấm, trang trí menu,….
+
+.subheader{
+	border-bottom: 1px solid $border-color;
+	font-size: 11px;
+	// height: 40px;
+	.subheader-menu li{
+		& > a{
+			line-height: 40px;
+			color: #222;
+			display: inline-flex;
+			padding: 0 10px;
+			color: rgba(0, 0, 0, 0.85);
+		}
+			&:first-child > a{
+				padding-left: 0;
+			}
+	}
+	.social-links{
+		padding: 0 10px;
+		border-left: 1px solid $border-color;
+
+		& > a{
+			line-height: 40px;
+			padding: 0 10px;
+			font-size: 14px;
+			display: inline-block;
+		}
+	}
+
+	.quick-search{
+		padding: 10px;
+		border-left: 1px solid $border-color;
+		border-right: 1px solid $border-color;
+		& .quick_search_icon{
+			width: 14px;
+			vertical-align: middle;
+		}
+	}
+}
+
+header.header{
+	padding: 20px 0;
+	& .logo{
+		display: flex;
+	}
+	& .logo img{
+		max-height: 44px
+	}
+	& a.logolink{
+		display: inline-flex;
+		align-items: center;
+		padding: 20px 0
+	}
+}
+
+.boxed{
+	& .menu-holder li{
+		padding: 15px;
+	}
+}

@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+ul li {
+  display: inline-block;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.bg-dark {
+  background-color: #222;
+}
+
+body {
+  font-family: Arial;
+}
+
+.subheader {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  font-size: 11px;
+}
+.subheader .subheader-menu li > a {
+  line-height: 40px;
+  color: #222;
+  display: inline-flex;
+  padding: 0 10px;
+  color: rgba(0, 0, 0, 0.85);
+}
+.subheader .subheader-menu li:first-child > a {
+  padding-left: 0;
+}
+.subheader .social-links {
+  padding: 0 10px;
+  border-left: 1px solid rgba(0, 0, 0, 0.08);
+}
+.subheader .social-links > a {
+  line-height: 40px;
+  padding: 0 10px;
+  font-size: 14px;
+  display: inline-block;
+}
+.subheader .quick-search {
+  padding: 10px;
+  border-left: 1px solid rgba(0, 0, 0, 0.08);
+  border-right: 1px solid rgba(0, 0, 0, 0.08);
+}
+.subheader .quick-search .quick_search_icon {
+  width: 14px;
+  vertical-align: middle;
+}
+
+header.header {
+  padding: 20px 0;
+}
+header.header .logo {
+  display: flex;
+}
+header.header .logo img {
+  max-height: 44px;
+}
+header.header a.logolink {
+  display: inline-flex;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.boxed .menu-holder li {
+  padding: 15px;
+}
+
+/*# sourceMappingURL=style.css.map */
